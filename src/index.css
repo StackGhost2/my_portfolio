@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Set the default text and page colors used throughout the portfolio. */
+:root {
+  font-family: "Inter", sans-serif;
+  color: #f4f4f5;
+  background: #08090a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* Animate jumps when visitors follow in-page links. */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #08090a;
+}
+
+::selection {
+  background: #b8ff5c;
+  color: #08090a;
+}
