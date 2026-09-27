@@ -8,9 +8,9 @@ export const projects: Project[] = [
       "A full-stack e-commerce platform with authentication, product management, cart functionality, order processing, stock management, and order tracking.",
     technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
     category: "Full-Stack",
-    image: "/images/projects/habzo/cover.png",
+    image: "/images/projects/habzo/habzo.png",
     github: "#",
-    live: "#",
+    live: "https://habzocollection.vercel.app/",
   },
   {
     title: "AttendanceGM",
